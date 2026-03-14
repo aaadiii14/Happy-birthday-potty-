@@ -1,10 +1,18 @@
-const button = document.getElementById("startButton");
-const music = document.getElementById("music");
+const startButton = document.getElementById("startButton");
+const home = document.getElementById("home");
+const letterPage = document.getElementById("letterPage");
+const envelope = document.getElementById("envelope");
+const letter = document.getElementById("letter");
 
-button.addEventListener("click", function(){
+startButton.addEventListener("click", function(){
 
-music.play();
+home.style.display = "none";
+letterPage.style.display = "block";
 
-alert("The surprise begins now 🧶");
+});
+
+envelope.addEventListener("click", function(){
+
+letter.style.display = "block";
 
 });
