@@ -5,6 +5,6 @@ button.addEventListener("click", function(){
 
 music.play();
 
-alert("Your surprise begins now 🧶");
+alert("The surprise begins now 🧶");
 
 });
